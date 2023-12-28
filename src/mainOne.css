@@ -1,0 +1,37 @@
+.mainOne{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    /* opacity: .99; */
+    background-image: url("./img/parallax-bg42.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+@media (max-width:992px){
+    .mainOne{
+        height: 40vh;
+    }
+}
+
+.subdiv-1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.subdiv-1 p{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    padding: 0;
+    /* margin:0; */
+    
+}
+.p-bottom{
+    margin-top: -4rem;
+}

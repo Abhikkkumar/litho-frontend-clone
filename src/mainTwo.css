@@ -1,0 +1,80 @@
+/* #232323 */
+/* #141414 more dark */
+
+.mainTwo {
+  min-height: 100vh;
+  background-color: #232323;
+}
+.mainTwo .container-fluid {
+  padding: 10rem 3% 2%;
+}
+.mainTwo p {
+  color: #ddd;
+}
+
+.tag-line p {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.yellow {
+  color: #f4d956 !important;
+}
+.details {
+  padding-right: 10%;
+}
+@media (max-width: 992px) {
+    .mainTwo{
+        min-height: 40vh;
+    }
+  .details {
+    padding-right: 2%;
+  }
+  /* .mainTwo .container-fluid {
+    padding: 5rem 1% 1%;
+  } */
+  .tag-line {
+    text-align: center;
+  }
+  .tag-line p {
+    font-weight: 500;
+    font-size: 35px;
+  }
+  .sub-1 {
+    margin-bottom: 5rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .details {
+    text-align: center;
+  }
+  .details .head {
+    margin: 2rem auto 1rem;
+  }
+}
+.details .head {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ddd;
+}
+.details p {
+  line-height: 2rem;
+  color: #aaa;
+}
+.col-white {
+  fill: #fff !important;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+.sub-2 .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-1 {
+  margin-bottom: 10rem;
+}

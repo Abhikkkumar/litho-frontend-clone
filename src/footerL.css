@@ -1,0 +1,30 @@
+.footerL {
+  background-color: hsl(0, 0%, 14%);
+}
+@media (max-width:992px){
+  .footerL{
+    display: none;
+  }
+}
+.footerL p {
+  color: #aaa;
+}
+.footerL .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.fl-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+
+.themezaa{
+    color: #fff;
+    text-decoration: underline;
+    
+}

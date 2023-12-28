@@ -1,0 +1,69 @@
+.my-services {
+  padding: 5rem 1rem;
+  background-color: #232323;
+}
+
+.my-services .sr-1 {
+  width: 99%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5%;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .sr-1 {
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .sr-1 .s-col {
+    margin-top: 2%;
+  }
+}
+@media (max-width: 768px) {
+  .sr-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+}
+.my-services .s-col {
+  /* width: fit-content; */
+  background-color: #141414;
+  max-width: 275px;
+  min-height: 20rem;
+  padding: 1rem 1rem 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.my-services .s-col > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s-col >div>.magic>p {
+    position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.s-col:hover{
+    padding: 1rem;
+}
+
+.s-col:hover > div > .magic>p {
+    position: relative;
+  opacity: 1;
+  transform: translateY(-50%);
+}
+.s-col:hover svg {
+  display: none;
+  margin-right: 5px;
+}

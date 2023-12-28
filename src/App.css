@@ -1,8 +1,22 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+/* .App {
+  text-align: center;
+  
+} */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70vh;
+  background-color: #232323;
+  border-top: 1px solid #ffffff1a;
+}
+@media (max-width:768px){
+    .contact{
+        padding-left: 5%;
+        padding-right: 5%;
+        min-height: 100vh;
+    }
+}
+.contact .c-col {
+  text-align: center;
+}
+.contact svg {
+  width: 15%;
+  height: 15%;
+  fill: #f4d956;
+}
+.c-col a {
+  color: #aaa;
+}
+.c-col h4 {
+  color: #eee;
+}

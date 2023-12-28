@@ -1,0 +1,34 @@
+.my-navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0 ;
+    border-bottom: 1px solid #ffffff1a;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    
+}
+
+@media (max-width:992px){
+    .my-navbarL{
+        display: none;
+    }
+}
+
+.my-navbar .nav-options{
+    display: flex;
+    gap:.75rem;
+    margin:0 .5rem;
+}
+.my-navbar .nav-icons{
+    display: flex;
+    gap:.75rem;
+}
+.nav-options a{
+    text-decoration: none;
+    color:white;
+}
